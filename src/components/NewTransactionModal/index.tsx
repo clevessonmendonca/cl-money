@@ -35,7 +35,12 @@ export const NewTransactionModal = ({
       type,
     });
 
-    onRequestClose()
+    setTitle("");
+    setAmount(0);
+    setCategory("");
+    setType("deposit");
+
+    onRequestClose();
   }
 
   return (
